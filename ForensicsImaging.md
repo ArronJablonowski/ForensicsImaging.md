@@ -4,7 +4,7 @@
 ```
 sudo systemctl stop udisks2.service
 ```
-Check udisks2 status
+* Check udisks2 status
 ```
 systemctl status udisks2 
 ```
