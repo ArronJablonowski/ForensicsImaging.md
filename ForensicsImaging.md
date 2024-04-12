@@ -42,17 +42,6 @@ losetup --list
 sudo losetup --detach /dev/loop2
 ```
 
-# TIPS
-Disable Automounting Service from starting up with system 
-```
-sudo systemctl mask udisks2
-```
-Re-enble service at startup (reboot, or manually start service) 
-```
-sudo systemctl unmask udisks2
-```
-Bitlocker drives require you to enter the "-"s for the Recovery Password. 
-
 # Plaso Log2Timeline
 * install 
 ```
@@ -85,3 +74,14 @@ psort.py -z UTC -o l2tcsv -w timeline.csv ./timeline.plaso "date > '2024-03-14 2
 psort.py -z UTC -o l2tcsv -w timeline.csv ./timeline.plaso "date > '2024-03-14 23:59:59'"
 ```
 Then use Timeline Explorer to view large CSV - https://ericzimmerman.github.io/#!index.md
+
+# TIPS
+Disable Automounting Service from starting up with system 
+```
+sudo systemctl mask udisks2
+```
+Re-enble service at startup (reboot, or manually start service) 
+```
+sudo systemctl unmask udisks2
+```
+Bitlocker drives require you to enter the "-"s for the Recovery Password. 
