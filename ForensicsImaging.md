@@ -1,4 +1,4 @@
-# Taking a Forensic Image 
+# Taking a Forensic Image - Linux
 USE A WRITE BLOCKER WHEN POSSIBLE
 * Disable Automounting of Drives (be sure to test non evidence drive) 
 ```
@@ -85,3 +85,8 @@ Re-enble service at startup (reboot, or manually start service)
 sudo systemctl unmask udisks2
 ```
 Bitlocker drives require you to enter the "-"s for the Recovery Password. 
+
+# Taking a Forensic Image - Windows
+
+
+
