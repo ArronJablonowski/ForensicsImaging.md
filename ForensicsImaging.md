@@ -57,7 +57,7 @@ sudo add-apt-repository ppa:gift/stable
 psteal.py --source image.raw -o dynamic -w registrar.csv
 ```
 
-# Log2Timeline & PSort
+# Log2Timeline & PSort (alternative to using psteal) 
 * log2timeline
 ```
 log2timeline.py --storage-file timeline.plaso image.dd
