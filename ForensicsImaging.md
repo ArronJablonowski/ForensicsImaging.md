@@ -20,6 +20,12 @@ sudo dd if=/dev/sde of=/dev/sdc status=progress
 ```
 sudo dc3dd if=/dev/sde of=/dev/sdc/img/disk.dd hash=md5 hash=sha256 hlog=/path/to/case/imghash.txt log=/path/to/case/img.log progress=on verb=on 
 ```
+# Watch disk I/O
+iostat -p <disk> -d <seconds> 
+```
+iostat -p sda -d 2
+```
+
 * Hash both image file and disk (if needed) 
 ```
 md5sum /dev/sde && md5sum /dev/sdc/disk.dd | tee hash.txt
