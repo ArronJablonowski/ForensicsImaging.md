@@ -92,7 +92,6 @@ sudo systemctl unmask udisks2
 ```
 Bitlocker drives require you to enter the "-"s for the Recovery Password. 
 
-# Taking a Forensic Image - Windows
 
 
 
