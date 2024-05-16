@@ -86,7 +86,7 @@ Disable Automounting Service from starting up with system
 ```
 sudo systemctl mask udisks2
 ```
-Re-enble service at startup (reboot, or manually start service) 
+Re-enable service at startup (reboot, or manually start service) 
 ```
 sudo systemctl unmask udisks2
 ```
