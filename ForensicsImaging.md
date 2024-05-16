@@ -51,7 +51,7 @@ sudo losetup --detach /dev/loop2
 # Plaso Log2Timeline
 * install 
 ```
-sudo apt update && sudo apt isntall plaso-tools
+sudo apt update && sudo apt install plaso-tools
 ```
 * (if that didn't work) 
 ```
