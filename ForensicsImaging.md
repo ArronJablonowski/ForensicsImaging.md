@@ -18,7 +18,7 @@ sudo dd if=/dev/sde of=/dev/sdc status=progress
 ```
 -or-
 ```
-sudo dc3dd if=/dev/sde of=/dev/sdc/img/disk.dd hash=md5 hash=sha256 hlog=/path/to/case/imghash.txt log=/path/to/case/img.log progress=on verb=on 
+sudo dc3dd if=/dev/sde of=/dev/sdc/img/disk.dd hash=md5 hash=sha256 hlog=/path/to/case/imghash.txt log=/path/to/case/img.log verb=on 
 ```
 # Watch disk I/O
 iostat -p ```<disk>``` -d ```<seconds>``` 
