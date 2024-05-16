@@ -74,7 +74,7 @@ psort.py -o dynamic -w registrar.csv timeline.plaso
 ```
 * Advanced PSort
 ```
-psort.py -z UTC -o l2tcsv -w timeline.csv ./timeline.plaso "date > '2024-03-14 23:59:59' AND  '2024-03-16 13:00:00'"
+psort.py -z UTC -o l2tcsv -w timeline.csv ./timeline.plaso "date > '2024-03-14 23:59:59' AND date < '2024-03-16 13:00:00'"
 ```
 ```
 psort.py -z UTC -o l2tcsv -w timeline.csv ./timeline.plaso "date > '2024-03-14 23:59:59'"
