@@ -64,7 +64,7 @@ psteal.py --source image.raw -o dynamic -w registrar.csv
 ```
 
 # Log2Timeline & PSort (alternative to using psteal) 
-* log2timeline
+* log2timeline (unless specified with -z, default is in UTC ) 
 ```
 log2timeline.py --storage-file timeline.plaso image.dd
 ```
@@ -74,10 +74,10 @@ psort.py -o dynamic -w registrar.csv timeline.plaso
 ```
 * Advanced PSort
 ```
-psort.py -z UTC -o l2tcsv -w timeline.csv ./timeline.plaso "date > '2024-03-14 23:59:59' AND date < '2024-03-16 13:00:00'"
+psort.py -o l2tcsv -w timeline.csv ./timeline.plaso "date > '2024-03-14 23:59:59' AND date < '2024-03-16 13:00:00'"
 ```
 ```
-psort.py -z UTC -o l2tcsv -w timeline.csv ./timeline.plaso "date > '2024-03-14 23:59:59'"
+psort.py -o l2tcsv -w timeline.csv ./timeline.plaso "date > '2024-03-14 23:59:59'"
 ```
 Then use Timeline Explorer to view large CSV - https://ericzimmerman.github.io/#!index.md
 
