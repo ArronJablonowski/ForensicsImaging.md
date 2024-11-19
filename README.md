@@ -8,7 +8,7 @@ sudo systemctl stop udisks2.service
 ```
 systemctl status udisks2 
 ```
-* List block devices:
+* List block devices (drives):
 ```
 lsblk
 ```
