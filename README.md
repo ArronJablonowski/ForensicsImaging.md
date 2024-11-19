@@ -31,9 +31,9 @@ iostat -p sda -d 2
 md5sum /dev/sde && md5sum /dev/sdc/disk.dd
 sha256sum /dev/sde && sha256sum /dev/sdc/disk.dd
 ```
-Analyze a copy of the image (.dd, .img, etc) 
-ie. a copy of the copy. 
+# Analyze a copy of the image (.dd, .img, etc) 
 
+ 
 # Mounting an image file 
 ```
 sudo losetup -f -P ./img.dd
