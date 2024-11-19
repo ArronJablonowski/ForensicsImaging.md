@@ -1,4 +1,4 @@
-# Creating a Forensic Image - Linux
+# Creating and Analyzing a Forensic Image - Using Linux
 USE A WRITE BLOCKER WHEN POSSIBLE
 * Disable auto mounting of Drives (be sure to test non evidence drive) 
 ```
