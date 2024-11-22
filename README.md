@@ -1,5 +1,5 @@
 # Creating and Analyzing a Forensic Image - Using Linux
-USE A WRITE BLOCKER WHEN POSSIBLE
+USE A WRITE BLOCKER WHEN POSSIBLE & FILL OUT CHAIN OF COSTODY
 * Disable auto mounting of Drives (be sure to test non evidence drive) 
 ```
 sudo systemctl stop udisks2.service
